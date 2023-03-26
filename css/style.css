@@ -2,6 +2,10 @@ body {
     background-color: #FFF4E0;
 }
 
+h1, h3 {
+    color: #B46060;
+}
+
 hr {
     border-style: none;
     border-top-style: dotted;
