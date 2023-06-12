@@ -30,7 +30,7 @@ li {
 }
 
 .intro {
-    width: 800px;
+    width: 350px;
     text-align: center;
     font-style: italic;
     margin: 20px auto;
@@ -49,6 +49,7 @@ li {
 
 .nav-menu a {
     text-decoration: none;
+    color: #B46060;
 }
 
 .nav-menu a:visited {
@@ -57,8 +58,8 @@ li {
 
 .nav-menu li {
     list-style: none;
-    margin: auto 50px;
-    font-size: 30px;
+    margin: auto 10px;
+    font-size: 20px;
 }
 
 .highlight {
@@ -68,4 +69,15 @@ li {
 .education-list li {
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-menu li {
+        margin: auto 30px;
+        font-size: 30px;
+    }
+
+    .intro {
+        width: 800px;
+    }
 }
