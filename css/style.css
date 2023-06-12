@@ -43,6 +43,7 @@ li {
 
 .nav-menu {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     justify-content: center;
 }
@@ -58,8 +59,8 @@ li {
 
 .nav-menu li {
     list-style: none;
-    margin: auto 10px;
-    font-size: 15px;
+    margin: auto 8px;
+    font-size: 10px;
 }
 
 .highlight {
